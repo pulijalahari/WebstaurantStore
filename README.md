@@ -7,15 +7,16 @@ git clone https://github.com/your-username/webstaurantstore-selenium.git
 Install Dependencies:
 Ensure you have Maven installed. Then, navigate to the project directory and run:
 mvn clean install
+
 WebDriver Setup:
 The project uses WebDriverManager to manage the ChromeDriver binary. 
 The driver will be automatically downloaded based on the browser version.
 Running Tests
 You can run the tests using the following command:
 mvn test
+
 Test Case
 The project automates the following test case:
-
 Go to https://www.webstaurantstore.com/
 Search for 'stainless work table'.
 Check the search result ensuring every product has the word 'Table' in its title.
