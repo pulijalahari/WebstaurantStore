@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching the chromebrowser]]>
+    </line>
+    <line>
+      <![CDATA[maximize the window]]>
+    </line>
+    <line>
+      <![CDATA[add implicitwait]]>
+    </line>
+    <line>
+      <![CDATA[add explicitwait object]]>
+    </line>
+    <line>
+      <![CDATA[creating Object for WebDriverUtils class]]>
+    </line>
+    <line>
+      <![CDATA[Open the application url-https://www.webstaurantstore.com/]]>
+    </line>
+    <line>
+      <![CDATA[Wait and verify for the webstaurant store title]]>
+    </line>
+    <line>
+      <![CDATA[Test case - SearchItemAddEmptyCartTest started]]>
+    </line>
+    <line>
+      <![CDATA[2.Search for 'stainless work table'.]]>
+    </line>
+    <line>
+      <![CDATA[wait for the page title:Stainless Work Table - WebstaurantStore]]>
+    </line>
+    <line>
+      <![CDATA[wait and assert the search results header shows stainless work table]]>
+    </line>
+    <line>
+      <![CDATA[3.Check the search result ensuring every product has the word 'Table' in its title.]]>
+    </line>
+    <line>
+      <![CDATA[4.Add the last of found items to Cart]]>
+    </line>
+    <line>
+      <![CDATA[wait for the last product details page header]]>
+    </line>
+    <line>
+      <![CDATA[click on Add To cart button]]>
+    </line>
+    <line>
+      <![CDATA[checking the success message after adding the product to the cart]]>
+    </line>
+    <line>
+      <![CDATA[click on View Cart button]]>
+    </line>
+    <line>
+      <![CDATA[wait for the Cart header in Viewcart page]]>
+    </line>
+    <line>
+      <![CDATA[verifying the cart has item]]>
+    </line>
+    <line>
+      <![CDATA[5.Empty Cart.]]>
+    </line>
+    <line>
+      <![CDATA[click on empty cart button]]>
+    </line>
+    <line>
+      <![CDATA[verify the modal cart dialog title -empty]]>
+    </line>
+    <line>
+      <![CDATA[click on Empty Cart Button in modal popup]]>
+    </line>
+    <line>
+      <![CDATA[wait and verify the cart empty text]]>
+    </line>
+    <line>
+      <![CDATA[Test case - SearchItemAddEmptyCartTest completed]]>
+    </line>
+    <line>
+      <![CDATA[started executing the @AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[close the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-12T08:16:40 MST" name="WebstaurantStoreSuite" finished-at="2024-04-12T08:16:50 MST" duration-ms="9976">
+    <groups>
+    </groups>
+    <test started-at="2024-04-12T08:16:40 MST" name="WebstaurantStoreTest" finished-at="2024-04-12T08:16:50 MST" duration-ms="9976">
+      <class name="com.qa.store.tests.WebstaurantStoreTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.qa.store.tests.WebstaurantStoreTest@1a4013]" started-at="2024-04-12T08:16:40 MST" name="beforeClass" finished-at="2024-04-12T08:16:43 MST" duration-ms="2842" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching the chromebrowser]]>
+            </line>
+            <line>
+              <![CDATA[maximize the window]]>
+            </line>
+            <line>
+              <![CDATA[add implicitwait]]>
+            </line>
+            <line>
+              <![CDATA[add explicitwait object]]>
+            </line>
+            <line>
+              <![CDATA[creating Object for WebDriverUtils class]]>
+            </line>
+            <line>
+              <![CDATA[Open the application url-https://www.webstaurantstore.com/]]>
+            </line>
+            <line>
+              <![CDATA[Wait and verify for the webstaurant store title]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="SearchItemAddEmptyCartTest()[pri:0, instance:com.qa.store.tests.WebstaurantStoreTest@1a4013]" started-at="2024-04-12T08:16:43 MST" name="SearchItemAddEmptyCartTest" finished-at="2024-04-12T08:16:50 MST" duration-ms="6921" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case - SearchItemAddEmptyCartTest started]]>
+            </line>
+            <line>
+              <![CDATA[2.Search for 'stainless work table'.]]>
+            </line>
+            <line>
+              <![CDATA[wait for the page title:Stainless Work Table - WebstaurantStore]]>
+            </line>
+            <line>
+              <![CDATA[wait and assert the search results header shows stainless work table]]>
+            </line>
+            <line>
+              <![CDATA[3.Check the search result ensuring every product has the word 'Table' in its title.]]>
+            </line>
+            <line>
+              <![CDATA[4.Add the last of found items to Cart]]>
+            </line>
+            <line>
+              <![CDATA[wait for the last product details page header]]>
+            </line>
+            <line>
+              <![CDATA[click on Add To cart button]]>
+            </line>
+            <line>
+              <![CDATA[checking the success message after adding the product to the cart]]>
+            </line>
+            <line>
+              <![CDATA[click on View Cart button]]>
+            </line>
+            <line>
+              <![CDATA[wait for the Cart header in Viewcart page]]>
+            </line>
+            <line>
+              <![CDATA[verifying the cart has item]]>
+            </line>
+            <line>
+              <![CDATA[5.Empty Cart.]]>
+            </line>
+            <line>
+              <![CDATA[click on empty cart button]]>
+            </line>
+            <line>
+              <![CDATA[verify the modal cart dialog title -empty]]>
+            </line>
+            <line>
+              <![CDATA[click on Empty Cart Button in modal popup]]>
+            </line>
+            <line>
+              <![CDATA[wait and verify the cart empty text]]>
+            </line>
+            <line>
+              <![CDATA[Test case - SearchItemAddEmptyCartTest completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchItemAddEmptyCartTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.qa.store.tests.WebstaurantStoreTest@1a4013]" started-at="2024-04-12T08:16:50 MST" name="afterClass" finished-at="2024-04-12T08:16:50 MST" duration-ms="178" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[started executing the @AfterClass]]>
+            </line>
+            <line>
+              <![CDATA[close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qa.store.tests.WebstaurantStoreTest -->
+    </test> <!-- WebstaurantStoreTest -->
+  </suite> <!-- WebstaurantStoreSuite -->
+</testng-results>
